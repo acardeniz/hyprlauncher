@@ -87,6 +87,9 @@ void I18n::initEngine() {
 
     // zh_Hant (Traditional Chinese)
     engine.registerEntry("zh_Hant", TXT_KEY_SEARCH_SOMETHING, "搜尋...");
+
+    // tr_TR (Turkish)
+    engine.registerEntry("tr_TR", TXT_KEY_SEARCH_SOMETHING, "Ara...");
 }
 
 std::string I18n::localize(eTextKeys key, const Hyprutils::I18n::translationVarMap& vars) {
